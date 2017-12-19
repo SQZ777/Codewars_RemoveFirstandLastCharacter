@@ -8,19 +8,14 @@ namespace Codewars_RemoveFirstandLastCharacter
         [TestMethod]
         public void Input_StringEmpty_Should_Be_OK()
         {
-            //arrange
-            var input = string.Empty;
-            var kata = new Kata();
-            //actual
-            var removedResult = kata.Remove_char(input);
-            //assert
-            Assert.AreEqual("ok",removedResult);
+            Assert.AreEqual("ok",new Kata().Remove_char(string.Empty));
         }
 
         [TestMethod]
-        public void Input_()
+        public void Input_a_Should_Be_OK()
         {
-
+            Assert.AreEqual("ok",new Kata().Remove_char("a"));
         }
+
     }
 }

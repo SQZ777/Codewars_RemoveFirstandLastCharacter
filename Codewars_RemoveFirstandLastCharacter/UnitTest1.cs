@@ -1,4 +1,3 @@
-using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Codewars_RemoveFirstandLastCharacter
@@ -7,8 +6,15 @@ namespace Codewars_RemoveFirstandLastCharacter
     public class UnitTest1
     {
         [TestMethod]
-        public void TestMethod1()
+        public void Input_StringEmpty_Should_Be_OK()
         {
+            //arrange
+            var input = string.Empty;
+            var kata = new Kata();
+            //actual
+            var removedResult = kata.Remove_char(input);
+            //assert
+            Assert.AreEqual("ok",removedResult);
         }
     }
 }

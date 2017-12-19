@@ -6,9 +6,7 @@ namespace Codewars_RemoveFirstandLastCharacter
     {
         public string Remove_char(string s)
         {
-            if (s.Length>1)
-                return s.Substring(1, s.Length - 2);
-            return "ok";
+            return s.Length > 1 ? s.Substring(1, s.Length - 2) : "ok";
         }
     }
 }

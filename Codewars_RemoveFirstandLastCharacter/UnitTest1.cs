@@ -16,5 +16,11 @@ namespace Codewars_RemoveFirstandLastCharacter
             //assert
             Assert.AreEqual("ok",removedResult);
         }
+
+        [TestMethod]
+        public void Input_()
+        {
+
+        }
     }
 }

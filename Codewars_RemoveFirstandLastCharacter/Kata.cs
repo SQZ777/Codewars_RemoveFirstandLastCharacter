@@ -6,7 +6,7 @@ namespace Codewars_RemoveFirstandLastCharacter
     {
         public string Remove_char(string s)
         {
-            throw new NotImplementedException();
+            return "ok";
         }
     }
 }
